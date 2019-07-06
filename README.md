@@ -5,12 +5,12 @@ Summary the general implement steps/methods of web development with tools Python
 **It is always a good idea that every project has its own virtual environment which will make the maintainance much easier in the future**
 At the terminal side, type:
  1. Install virtual environment on your system `pip install virtualenv`
- 2. a. Go to the file location that you want to have your project:`cd D:\Web_Dev`
+ 2. a. Go to the file location that you want to have your project: e.g. `cd D:\Web_Dev`
     
-    b. `python -m venv django_env` will have a `django_env` folder under  `D:\Web_Dev
+    b. `python -m venv django_env` will have a `django_env` folder under  `D:\Web_Dev`
  3. Active the virtual environment
     - Windows: `django_env\Scripts\activate`
-    - Linux/Mac: `source django_env/bin/activate'
+    - Linux/Mac: `source django_env/bin/activate`
  4. Deactive your virtual environment: `deactivate`
 
 ### 2. Create an requirements.txt
